@@ -1,0 +1,11 @@
+### Kõik tellimused
+GET http://localhost:8080/api/v1/orders
+
+### Üks tellimus
+GET http://localhost:8080/api/v1/orders/1
+
+### Lehekülgedeks jagamine
+GET http://localhost:8080/api/v1/orders?page=0&size=1
+
+### Olematu tellimus (404)
+GET http://localhost:8080/api/v1/orders/999
